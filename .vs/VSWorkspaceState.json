@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\armor_detector",
+    "\\armor_detector\\src",
+    "\\armor_processor",
+    "\\armor_processor\\include",
+    "\\armor_processor\\include\\armor_processor",
+    "\\armor_processor\\src",
+    "\\auto_aim_bringup",
+    "\\auto_aim_interfaces",
+    "\\rm_auto_aim"
+  ],
+  "PreviewInSolutionExplorer": false
+}
