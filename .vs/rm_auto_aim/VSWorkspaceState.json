@@ -1,8 +1,0 @@
-{
-  "OutputFoldersPerTargetSystem": {
-    "本地计算机": [
-      "rm_auto_aim\\out\\build\\x64-Debug",
-      "rm_auto_aim\\out\\install\\x64-Debug"
-    ]
-  }
-}
