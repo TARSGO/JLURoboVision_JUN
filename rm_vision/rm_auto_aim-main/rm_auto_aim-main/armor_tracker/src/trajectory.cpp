@@ -200,7 +200,7 @@ void PredictPitchXY::GimbalControlTransform(float xw, float yw, float zw, float 
     {
       float tmp_yaw = tar_yaw + i * 3.14 / 2.0f;
       float r = use_1 ? r1 : r2;
-      tar_position[i].x = xw - r * (1 - cos(tmp_yaw));
+      tar_position[i].x = xw - r * cos(tmp_yaw);
       tar_position[i].y = yw - r * sin(tmp_yaw);
       tar_position[i].z = use_1 ? zw : dz + zw;
       tar_position[i].yaw = tar_yaw + i * 3.14 / 2.0f;
